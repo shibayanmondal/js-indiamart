@@ -8,4 +8,10 @@ function invoke() {
     console.log('Hello World')
 }
 
+function b() {
+    console.log('b is called')
+}
+
+
 // document.getElementById('byClick').click()
+
