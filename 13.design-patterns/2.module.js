@@ -125,7 +125,6 @@ var Module = (function() {
     }
 
     return {publicMethod}
+})()
 
-})
-
-Module.publicMethod('I am able to access the private method')
+Module.publicMethod('Hello')

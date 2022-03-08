@@ -55,3 +55,4 @@ function extractExtenstion(fileName) {
 console.log(extractExtenstion('resume.doc'))
 console.log(extractExtenstion('bangalore.txt'))
 console.log(extractExtenstion('notepad'))
+
