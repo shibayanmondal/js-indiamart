@@ -29,8 +29,12 @@ var obj = {
                                     // see line no 12.
             }
             test()
+            // another way to solve global issue of 'this' keyword
+            // test.bind(this)()
         }
         updateName()
+        // another way to solve global issue of 'this' keyword
+        // updateName.bind(this)()
     }
 }
 // sample()
